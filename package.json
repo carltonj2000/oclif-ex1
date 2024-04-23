@@ -1,0 +1,29 @@
+{
+  "name": "oclif-ex1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@oclif/core": "^3.26.4",
+    "typescript": "^5.4.5"
+  },
+  "bin": {
+    "oclif-ex1": "./bin/run.js"
+  },
+  "oclif": {
+    "bin": "oclif-ex1",
+    "commands": "./dist/commands",
+    "dirname": "oclif-ex1",
+    "topicSeparator": " "
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
