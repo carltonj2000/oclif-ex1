@@ -21,7 +21,12 @@
     "bin": "oclif-ex1",
     "commands": "./dist/commands",
     "dirname": "oclif-ex1",
-    "topicSeparator": " "
+    "topicSeparator": " ",
+    "update": {
+      "s3": {
+        "bucket": ""
+      }
+    }
   },
   "devDependencies": {
     "ts-node": "^10.9.2"
